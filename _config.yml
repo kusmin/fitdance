@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: Fitdance
+subtitle: 'Por um mundo com dança'
+description: 'Blog que tem como objetivo promover o fitdance, levando dança para diferentes realidades'
+keywords: ['fitdance', 'dança', 'saúde', 'blog']
+author: Renan Ribeiro Lage
+language: pt-BR
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://kusmin.github.io/fitdance/
+permalink: :categoria/:year-:month-:day-:title
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
